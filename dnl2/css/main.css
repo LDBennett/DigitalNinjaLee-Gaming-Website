@@ -1,0 +1,190 @@
+/*
+Custom CSS stylesheet for website.  Overrides colors from default bootstrap theme
+*/
+/* 
+    Created on : Feb 18, 2016, 9:19:39 AM
+    Author     : Lee Bennett
+*/
+body{
+    background-image: url('../img/bg-grid.png');
+    background-size: 100%;
+    color: white;
+    padding-bottom: 50px;
+}
+
+.navbar-default {
+  background-color: black;
+  border-color: #fbfbfb;
+}
+.nav-banner{
+  background-image: url('../img/banner.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+@media screen and (max-width: 767px) {
+  .nav-banner {
+    background-image: url('../img/banner-sm.png');
+  }
+}
+.navbar-default .navbar-brand {
+  color: #b4b4b4;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #036140;
+}
+.navbar-default .navbar-text {
+  color: #b4b4b4;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #b4b4b4;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #036140;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #036140;
+  background-color: #fbfbfb;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  color: #036140;
+  background-color: #fbfbfb;
+}
+.navbar-default .navbar-toggle {
+  border-color: #fbfbfb;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #fbfbfb;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #b4b4b4;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #b4b4b4;
+}
+.navbar-default .navbar-link {
+  color: #b4b4b4;
+}
+.navbar-default .navbar-link:hover {
+  color: #036140;
+}
+
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #b4b4b4;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #036140;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #036140;
+    background-color: #fbfbfb;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .row-offcanvas {
+    position: relative;
+    -webkit-transition: all .25s ease-out;
+         -o-transition: all .25s ease-out;
+            transition: all .25s ease-out;
+  }
+
+  .row-offcanvas-right {
+    right: 0;
+  }
+
+  .row-offcanvas-left {
+    left: 0;
+  }
+
+  .row-offcanvas-right
+  .sidebar-offcanvas {
+    right: -50%; /* 6 columns */
+  }
+
+  .row-offcanvas-left
+  .sidebar-offcanvas {
+    left: -50%; /* 6 columns */
+  }
+
+  .row-offcanvas-right.active {
+    right: 50%; /* 6 columns */
+  }
+
+  .row-offcanvas-left.active {
+    left: 50%; /* 6 columns */
+  }
+
+  .sidebar-offcanvas {
+    position: absolute;
+    top: 0;
+    width: 50%; /* 6 columns */
+  }
+}
+
+/* Well Colors */
+.well-bk{
+    background-color: rgba(0,0,0,.9);
+    border-color: white;
+    border-width: .5em;
+    border-style: dashed;
+}
+
+.well-bl{
+    background-color: rgba(1,1,1,.9);
+    border-color: white;
+    border-width: .5em;
+    border-style: dashed;
+}
+
+/* For Google Form */
+.g-form{
+    width: 100%;
+    height: 800px;
+    max-height: 800px;
+}
+
+/* For Image ZOOM */
+.img-zoom img{
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+}
+ 
+.img-zoom img:hover {
+    -webkit-transform: scale(1.2); 
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.bNav{
+    border: 1px solid black;
+}
+
+.bNav:hover{
+   -moz-box-shadow: 0 0 10px #ccc; 
+   -webkit-box-shadow: 0 0 10px #ccc; 
+   box-shadow: 0 0 10px #ccc;
+}
+    
+/*Prevents display of side obj when on small screen or mobile
+device*/
+@media screen and (max-width: 767px) {
+    .mobile-hide{
+        display:none;
+    }
+}

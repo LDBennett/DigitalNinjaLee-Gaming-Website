@@ -1,0 +1,46 @@
+/*For Tab List on Main Page (shows gamercards)*/
+img{
+	width: 400px;
+	text-align: center;
+	float: center;
+}
+#tab_list {
+	width: auto;
+   margin:0;
+   padding: 3px 6px;
+   border-bottom: 1px solid black;
+	text-align: left;
+}
+#tab_list li {
+    list-style: none;
+    display: inline;
+}
+#tab_list li a {
+    padding: 3px 1em;
+    margin-left: 3px;
+    text-decoration: none;
+    font-weight: bold;
+    background: #1E8194;
+    border: 1px solid black;
+	color: white;
+}
+#tab_list li a:hover { 
+    background: silver;
+    border-color: black;
+}
+#tab_list li a.active {
+    background-color: white;
+    border-bottom: 1px solid white;
+	 color: #489439;
+}
+#tab_contents div {
+    padding: 5px 10px 10px;
+    border: 1px solid black;
+    border-top: 0;
+    width: auto;
+    overflow:auto;
+	 clear: both;
+}
+.hide {
+    display: none; 
+}

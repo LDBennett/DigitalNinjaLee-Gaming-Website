@@ -1,0 +1,2 @@
+[29-Mar-2016 14:53:17 America/Denver] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'igitanp2_leeBee'@'localhost' (using password: YES) in /home2/igitanp2/public_html/pages/log.php on line 8
+[01-Apr-2016 13:30:59 America/Denver] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'ldbennett'@'localhost' (using password: YES) in /home2/igitanp2/public_html/pages/log.php on line 8
